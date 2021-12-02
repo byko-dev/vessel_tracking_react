@@ -1,0 +1,129 @@
+.map_container{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.map_leaflet{
+  height: 100%;
+  width: 100%;
+}
+
+.marker {
+  background-size: 100px;
+  width: 30px;    height: 30px;
+  border:none;
+  cursor: pointer;
+}
+
+.sidebar {
+  background-color: rgba(35, 55, 75, 0.9);
+  color: #fff;
+  padding: 6px 12px;
+  font-family: monospace;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 12px;
+  border-radius: 4px;
+}
+
+.mapboxgl-popup {
+  max-width: 200px;
+}
+.mapboxgl-popup-tip {
+  display: none;
+}
+.mapboxgl-popup-content{
+  border: 1px solid #151719 !important;
+  background-color: #0f0f13 !important;
+  color: white;
+}
+.mapboxgl-popup-close-button
+{
+  color: white!important;
+  font-size: 1.2vw!important;
+}
+
+.marker {
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border:none;
+  cursor: pointer;
+}
+
+h3 {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 0!important;
+  line-height: 19px !important;
+}
+p, a {
+  font-size: 14px;
+  line-height: 15px!important;
+  color: rgb(127, 76, 221);
+  margin: 0!important;
+}
+
+
+
+span{
+  color: white;
+}
+
+button {
+  background: none;
+  color: white;
+  margin-top: 10px;
+  border: 2px solid rgb(127, 76, 221);
+}
+
+button:hover{
+  background: rgb(127, 76, 221);
+}
+
+.mapboxgl-popup-content {
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+.weather-sidebar {
+  width: 170px;
+  height: auto;
+  background-color: rgba(35, 55, 75, 0.9);
+  color: #fff;
+  padding: 6px 12px;
+  font-family: monospace;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 12px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.weather-sidebar img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  margin-right: 10px;
+}
+.weather-sidebar p{
+  color: blue;
+}
+
+.weather_box{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
